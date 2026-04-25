@@ -1,8 +1,9 @@
-# 🛡️ KudoScan: Autonomous Phishing Triage Copilot
+# 🛡️ KudoScan: Autonomous Phishing Triage Copilot ( For UM Hackathon Purposes )
 
 **KudoScan** is an end-to-end platform built for modern threat detection. It combines an autonomous Telegram Bot that hunts for phishing links with a real-time, glassmorphism-styled React dashboard to triage and visualize threats.
 
-## **KudoScan Video Pitching** :
+## **KudoScan Video Pitching** 
+Google Drive : https://drive.google.com/drive/folders/1eG9XFzKhOtiA_3xvfg1pc9gFZcl3ao3k?usp=drive_link
 
 ## 📥 What to Download (Prerequisites)
 
@@ -90,6 +91,8 @@ This runs the autonomous bot that listens to your Telegram chat, scans links, an
 source venv/bin/activate
 
 # 4. Run the bot script
+# Install if there is error
+pip install python-dotenv pyTelegramBotAPI requests anthropic streamlit
 python bot.py
 ```
 
@@ -109,4 +112,4 @@ python bot.py
 
 7. Watch the Live Scan Database instantly update with the new threat, and observe the High/Medium/Low Risk gauges recalculate in real-time!
 
-## Built for windows
+* Built for Windows
